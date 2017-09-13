@@ -2,6 +2,7 @@ var katzDeli = []
 
 function takeANumber(katzDeliLine, name){
   var deliPlace = katzDeli.length + 1
-  katzDeli.push(`Welcome, ${name}. You are number ${deliPlace} in line` )
-  return katzDeli
+  var newArray = []
+  katzDeli.push(name)
+  newArray.push(`Welcome, ${name}. You are number ${deliPlace} in line` )
 }
