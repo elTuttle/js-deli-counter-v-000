@@ -17,7 +17,7 @@ function nowServing(deliLine){
   }
 
   return response
-  
+
 }
 
 function currentLine(line){
