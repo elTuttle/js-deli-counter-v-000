@@ -10,6 +10,7 @@ function nowServing(deliLine){
   var deliLineLength = deliLine.length + 1
   if(deliLine.length>0){
       return deliLine[0]
+      deliLine.shift()
   }else{
       return "There is nobody waiting to be served!"
   }
