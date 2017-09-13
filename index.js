@@ -24,9 +24,13 @@ function currentLine(line){
   var response = "The line is currently"
   var deliLineLength = line.length + 1
   if(line.length != 0 ){
-    response += ": "
+    response += ":"
     for(var i=0;i<line.length;i++){
-      response += ` ${i+1}. ${line[i]} `
+      response += ` ${i+1}. ${line[i]}`
+      if (i == (line.length - 1)){
+      }else{
+        response += ","
+      }
     }
   }else{
     response = "The line is currently empty."
