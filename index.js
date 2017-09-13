@@ -24,5 +24,10 @@ function currentLine(line){
     for(var i=0;i<line.length;i++){
       response + ` ${deliLineLength}. ${line[i]} `
     }
+  }else{
+    response = "The line is currently empty."
   }
+
+  return response
+  
 }
