@@ -5,3 +5,12 @@ function takeANumber(deliLine, name){
   deliLine.push(name)
   return `Welcome, ${name}. You are number ${deliLineLength} in line.`
 }
+
+function nowServing(deliLine){
+  var deliLineLength = deliLine.length + 1
+  if(deliLine.length>0){
+      return deliLine[0]
+  }else{
+      return "There is nobody waiting to be served!"
+  }
+}
