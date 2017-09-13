@@ -29,5 +29,5 @@ function currentLine(line){
   }
 
   return response
-  
+
 }
