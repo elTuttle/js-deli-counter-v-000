@@ -26,7 +26,7 @@ function currentLine(line){
   if(line.length != 0 ){
     response += ": "
     for(var i=0;i<line.length;i++){
-      response += ` ${deliLineLength}. ${line[i]} `
+      response += ` ${i}. ${line[i]} `
     }
   }else{
     response = "The line is currently empty."
