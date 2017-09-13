@@ -26,7 +26,7 @@ function currentLine(line){
   if(line.length != 0 ){
     response += ": "
     for(var i=0;i<line.length;i++){
-      response += ` ${i}. ${line[i]} `
+      response += ` ${i+1}. ${line[i]} `
     }
   }else{
     response = "The line is currently empty."
